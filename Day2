@@ -1,0 +1,27 @@
+package coding;
+
+public class day2 {
+
+  public static void main(String[] args) {
+    
+    String nama ="irfandi";
+    String klas ="informatika B 23";
+    String jurusan = "informatika";
+    int umur = 18;
+    float beratbadan = 55.9f;
+    char jeniskelamin = 'L';
+    boolean statuspernikahan = false;
+    
+    
+    System.out.println("nama="+nama);
+    System.out.println("klas="+klas);
+   System.out.println("jurusan="+jurusan);
+    System.out.println("umur="+umur);
+    System.out.println("berat badan="+beratbadan);
+    System.out.println("jenis kelamin="+jeniskelamin);
+    System.out.println("status pernikahan="+statuspernikahan);
+  
+  
+  }
+  
+}
