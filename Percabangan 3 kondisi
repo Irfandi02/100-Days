@@ -1,0 +1,28 @@
+public class Day13 {
+
+  public static void main(String[] args) {
+  025746
+   
+   //percabangan if- else-if else
+ 
+   double total = 500000;
+     System.out.println("total belanja = Rp. " + total);
+ 
+   if(total >= 600000){
+     
+     System.out.println("Dapat diskon 20%");
+     double diskon = 20 * total / 100;
+     total -= diskon;
+ 
+   } else if(total >= 250000){
+     System.out.println("Dapat diskon 10%");
+     double diskon = 10 * total / 100;
+     total -= diskon;
+   }
+     else {
+       System.out.println("tidak dapat diskon");
+       }
+    System.out.println("akhir = Rp. " + total);
+     
+     }
+}
