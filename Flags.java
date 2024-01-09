@@ -8,10 +8,10 @@ public class Flags {
         Scanner input = new Scanner(System.in);
        System.out.println("[flags]");
 
-        System.out.print("Masukkan angka1: ");
+        System.out.print("Masukkan bilangan1: ");
         int bilangan1 = input.nextInt();
 
-        System.out.print("Masukkan angka2: ");
+        System.out.print("Masukkan bilangan2: ");
         int bilangan2 = input.nextInt();
 
         int hasil = bilangan1 - bilangan2;
